@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
--- DATE "05/12/2021 18:07:47"
+-- DATE "05/13/2021 19:19:17"
 
 -- 
 -- Device: Altera 5CGXFC7C7F23C8 Package FBGA484
@@ -1689,13 +1689,12 @@ PORT MAP (
 
 \ROM|memoriaROM~3\ : cyclonev_lcell_comb
 -- Equation(s):
--- \ROM|memoriaROM~3_combout\ = (!\ProgramCounter|out_port\(3) & ((!\ProgramCounter|out_port\(0) & (!\ProgramCounter|out_port\(1) & !\ProgramCounter|out_port\(2))) # (\ProgramCounter|out_port\(0) & ((!\ProgramCounter|out_port\(1)) # 
--- (!\ProgramCounter|out_port\(2))))))
+-- \ROM|memoriaROM~3_combout\ = (!\ProgramCounter|out_port\(1) & (!\ProgramCounter|out_port\(3) & ((!\ProgramCounter|out_port\(2)) # (\ProgramCounter|out_port\(0)))))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "1101010000000000110101000000000011010100000000001101010000000000",
+	lut_mask => "1100010000000000110001000000000011000100000000001100010000000000",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
@@ -1804,13 +1803,12 @@ PORT MAP (
 
 \ROM|memoriaROM~8\ : cyclonev_lcell_comb
 -- Equation(s):
--- \ROM|memoriaROM~8_combout\ = (!\ProgramCounter|out_port\(3) & ((!\ProgramCounter|out_port\(0) & (\ProgramCounter|out_port\(1) & \ProgramCounter|out_port\(2))) # (\ProgramCounter|out_port\(0) & (!\ProgramCounter|out_port\(1) & 
--- !\ProgramCounter|out_port\(2)))))
+-- \ROM|memoriaROM~8_combout\ = (!\ProgramCounter|out_port\(3) & ((!\ProgramCounter|out_port\(0) & (\ProgramCounter|out_port\(1) & \ProgramCounter|out_port\(2))) # (\ProgramCounter|out_port\(0) & ((!\ProgramCounter|out_port\(2))))))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0100001000000000010000100000000001000010000000000100001000000000",
+	lut_mask => "0101001000000000010100100000000001010010000000000101001000000000",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (

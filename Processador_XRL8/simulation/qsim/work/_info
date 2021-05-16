@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/lucas/Documents/GitHub/AOC_RafaelNobrega_LucasBessa_UFRR_2020/Processador_XRL8/simulation/qsim
 Eprocessador
-Z1 w1620857267
+Z1 w1620947957
 Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
 Z3 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
 Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
@@ -20,7 +20,7 @@ Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
 Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z10 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
-!i122 12
+!i122 16
 R0
 Z11 8Processador.vho
 Z12 FProcessador.vho
@@ -30,9 +30,9 @@ V]c30RgE8SMmV_:Z@81^ng1
 !s100 A46^bBiZSNQ;aTVmzOQ:Y2
 Z13 OV;C;2020.1;71
 32
-Z14 !s110 1620857269
+Z14 !s110 1620947959
 !i10b 1
-Z15 !s108 1620857269.000000
+Z15 !s108 1620947959.000000
 Z16 !s90 -work|work|Processador.vho|
 Z17 !s107 Processador.vho|
 !i113 1
@@ -49,11 +49,11 @@ R8
 R9
 R10
 DEx4 work 11 processador 0 22 ]c30RgE8SMmV_:Z@81^ng1
-!i122 12
+!i122 16
 l503
-L59 5085
-VaQY9=M0]3HeaMlA4:ELW63
-!s100 o42]kHG^b>aM9ad0jJlk32
+L59 5083
+V]c:>=R9g8d]J_nHajJOC;0
+!s100 XU9`fNIkW<33:cI_<0_7<2
 R13
 32
 R14
@@ -65,10 +65,10 @@ R17
 R18
 R19
 Eprocessador_vhd_vec_tst
-Z20 w1620857265
+Z20 w1620947955
 R8
 R9
-!i122 13
+!i122 17
 R0
 Z21 8Waveform.vwf.vht
 Z22 FWaveform.vwf.vht
@@ -90,7 +90,7 @@ Aprocessador_arch
 R8
 R9
 Z25 DEx4 work 23 processador_vhd_vec_tst 0 22 UZ4]bW62[VQEW;on1>[;m0
-!i122 13
+!i122 17
 l71
 Z26 L34 70
 Z27 VLWOgFfnYE5``cAaQUnRKD0
